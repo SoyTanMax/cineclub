@@ -41,6 +41,9 @@
 </script>
 
 <style scoped>
+/*Estoy consciente de que el navbar llevaba una opacidad
+ pero al aplicar los estilos hacía el fondo gris y no transparente,
+ por eso lo dejé color negro*/
 .navbar{
     display: flex;
     align-items: center;
@@ -49,7 +52,7 @@
     top: 0;
     width: 100%;
     height: 52px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background: black;
 }
 svg{
     width: 24px;
