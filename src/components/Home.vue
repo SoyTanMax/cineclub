@@ -63,7 +63,7 @@ export default {
   .poster{
     position: relative;
     height: 50%;
-    max-width: 100%;
+    width: 100%;
   }
   .container{
     position: relative;
