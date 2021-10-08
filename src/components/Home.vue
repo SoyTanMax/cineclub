@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-      <Navbar/>
+      <Navbar class="navbar"/>
       <img class="poster" :src="poster" alt="">
       <div class="container">
         <p class="marvel">{{ copy.marvel }}</p>
@@ -59,6 +59,11 @@ export default {
   .home{
     position: relative;
     height: 100vh;
+  }
+  .navbar{
+    position: absolute;
+    top: 0;
+    z-index: 99;
   }
   .poster{
     position: relative;

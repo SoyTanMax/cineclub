@@ -52,7 +52,8 @@
     top: 0;
     width: 100%;
     height: 52px;
-    background: black;
+    background: rgba(0,0,0,0.3);
+    border: none;
 }
 svg{
     width: 24px;
